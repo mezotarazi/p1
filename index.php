@@ -25,7 +25,9 @@
 		<h2>About Me</h2>
 		<p>
 			I am an Australian Information Technology focused individual with 5 years experience in Database Administration. I currently hold a Data Science Certificate from Harvard Extension School and enjoyed the
-            program so much that I decided to further my experience and education to achieving a Software Engineering Masters. I enrolled in this course, to meet the enrolment requirements and further my knowledge in Web Development workflows.
+            program so much that I decided to further my experience and education to achieving a Software Engineering Masters. I enrolled in this course, to meet the enrollment requirements and further my knowledge in Web Development workflows.
+            
+            My hobbies include reading, coding, traveling, sports, cars
 		</p>
 
 
