@@ -1,0 +1,51 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Ramez Tarazi - Project 1</title>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel='stylesheet' href='//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css' type='text/css'>
+	<link href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/flatly/bootstrap.min.css" rel="stylesheet">
+
+	<link href='css/main.css' rel='stylesheet'>
+
+</head>
+<body>
+
+	<div class="container">
+
+		<h1>Ramez Tarazi</h1>
+
+		<img src='images/ramez-pic.jpg' alt='Ramez Pic'>
+
+		<h2>About Me</h2>
+		<p>
+			I am an Australian Information Technology focused individual with 5 years experience in Database Administration. I currently hold a Data Science Certificate from Harvard Extension School and enjoyed the
+            program so much that I decided to further my experience and education to achieving a Software Engineering Masters. I enrolled in this course, to meet the enrolment requirements and further my knowledge in Web Development workflows.
+		</p>
+
+
+		<h2>Random Quote</h2>
+        <blockquote>
+        <?php
+            $strings = array(
+            'Don\'t cry because it\'s over, smile because it happened. -- Dr. Seuss',
+            'I\'m selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can\'t handle me at my worst, then you sure as hell don\'t deserve me at my best. --  Marilyn Monroe',
+            'Be yourself; everyone else is already taken. -- Oscar White'
+            );
+            $key = array_rand($strings);
+            echo $strings[$key];
+        ?>
+        </blockquote>
+
+	</div>
+
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
