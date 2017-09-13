@@ -16,11 +16,10 @@
 
 </head>
 <body>
-
+	<header>
+	    <h1 id="name">Ramez Tarazi</h1>
+	</header>
 	<div class="container">
-
-		<h1>Ramez Tarazi</h1>
-
 		<img src='images/ramez-pic.jpg' alt='Ramez Pic'>
 
 		<h2>About Me</h2>
@@ -44,8 +43,15 @@
         </blockquote>
 
 	</div>
+    <footer>
+        <p>
+            Ramez Tarazi
+            <br />
+            <a href="mailto:rst296@g.harvard.edu">rst296@g.harvard.edu</a>
+        </p>
+    </footer>
 
-	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 </body>
 </html>
